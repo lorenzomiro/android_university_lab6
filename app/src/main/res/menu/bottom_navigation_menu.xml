@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="text_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bestselling_books"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="text_bestselling_books"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_article_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="text_article_search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="text_settings"
+        app:showAsAction="always" />
+</menu>
